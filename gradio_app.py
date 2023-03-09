@@ -3,7 +3,7 @@ from example import load, setup_model_parallel
 import torch
 import os
 from fairscale.nn.model_parallel.initialize import initialize_model_parallel
-
+import sys
 
 MODEL_SIZE = "7B"
 
